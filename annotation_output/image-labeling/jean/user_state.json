@@ -1502,7 +1502,7 @@
     "1813688133860602155-batch_8-GSuDkBmXEAANgQE.png",
     "1811792641786327199-batch_1-GSPdM_-agAQN19R.png"
   ],
-  "current_instance_index": 1,
+  "current_instance_index": 3,
   "current_phase_and_page": [
     "annotation",
     "annotation"
@@ -1512,16 +1512,16 @@
   "instance_id_to_behavioral_data": {
     "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg": {
       "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-      "session_start": 1775252869.8792791,
+      "session_start": 1775253739.452975,
       "session_end": null,
       "total_time_ms": 0,
       "interactions": [
         {
           "event_type": "navigation",
-          "timestamp": 1775252864.871,
+          "timestamp": 1775253736.488,
           "target": "instance_load",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252864871,
+          "client_timestamp": 1775253736488,
           "metadata": {
             "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
             "from_instance": null
@@ -1529,40 +1529,40 @@
         },
         {
           "event_type": "click",
-          "timestamp": 1775252877.278,
+          "timestamp": 1775253739.445,
           "target": "schema:origin",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252877278,
+          "client_timestamp": 1775253739445,
           "metadata": {
-            "x": 88,
-            "y": 500
+            "x": 71,
+            "y": 343
           }
         },
         {
           "event_type": "focus_in",
-          "timestamp": 1775252877.279,
+          "timestamp": 1775253739.446,
           "target": "label:origin:real",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252877279,
+          "client_timestamp": 1775253739446,
           "metadata": {}
         },
         {
           "event_type": "click",
-          "timestamp": 1775252877.279,
+          "timestamp": 1775253739.446,
           "target": "label:origin:real",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252877279,
+          "client_timestamp": 1775253739446,
           "metadata": {
-            "x": 88,
-            "y": 500
+            "x": 71,
+            "y": 343
           }
         },
         {
           "event_type": "annotation_change",
-          "timestamp": 1775252877.28,
+          "timestamp": 1775253739.447,
           "target": "schema:origin",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252877280,
+          "client_timestamp": 1775253739447,
           "metadata": {
             "label": "real",
             "action": "select",
@@ -1573,58 +1573,58 @@
         },
         {
           "event_type": "save",
-          "timestamp": 1775252877.782,
+          "timestamp": 1775253739.949,
           "target": "instance:1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252877782,
+          "client_timestamp": 1775253739949,
           "metadata": {}
         },
         {
           "event_type": "focus_out",
-          "timestamp": 1775252878.241,
+          "timestamp": 1775253740.971,
           "target": "label:origin:real",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252878241,
+          "client_timestamp": 1775253740971,
           "metadata": {
-            "duration_ms": 962
+            "duration_ms": 1525
           }
         },
         {
           "event_type": "click",
-          "timestamp": 1775252878.29,
+          "timestamp": 1775253741.011,
           "target": "schema:categories",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252878290,
+          "client_timestamp": 1775253741011,
           "metadata": {
-            "x": 488,
-            "y": 448
+            "x": 456,
+            "y": 313
           }
         },
         {
           "event_type": "focus_in",
-          "timestamp": 1775252878.29,
+          "timestamp": 1775253741.012,
           "target": "label:categories:::photo_regular:photo_regular",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252878290,
+          "client_timestamp": 1775253741012,
           "metadata": {}
         },
         {
           "event_type": "click",
-          "timestamp": 1775252878.29,
+          "timestamp": 1775253741.012,
           "target": "label:categories:::photo_regular:photo_regular",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252878290,
+          "client_timestamp": 1775253741012,
           "metadata": {
-            "x": 488,
-            "y": 448
+            "x": 456,
+            "y": 313
           }
         },
         {
           "event_type": "annotation_change",
-          "timestamp": 1775252878.29,
+          "timestamp": 1775253741.012,
           "target": "schema:categories",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252878290,
+          "client_timestamp": 1775253741012,
           "metadata": {
             "label": "photo_regular",
             "action": "select",
@@ -1635,10 +1635,10 @@
         },
         {
           "event_type": "annotation_change",
-          "timestamp": 1775252878.291,
+          "timestamp": 1775253741.013,
           "target": "schema:categories",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252878291,
+          "client_timestamp": 1775253741013,
           "metadata": {
             "label": "photo_regular",
             "action": "select",
@@ -1649,28 +1649,46 @@
         },
         {
           "event_type": "save",
-          "timestamp": 1775252878.793,
+          "timestamp": 1775253741.514,
           "target": "instance:1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252878793,
+          "client_timestamp": 1775253741514,
           "metadata": {}
         },
         {
           "event_type": "focus_out",
-          "timestamp": 1775252879.491,
+          "timestamp": 1775253741.875,
           "target": "label:categories:::photo_regular:photo_regular",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252879491,
+          "client_timestamp": 1775253741875,
           "metadata": {
-            "duration_ms": 1201
+            "duration_ms": 863
+          }
+        },
+        {
+          "event_type": "focus_in",
+          "timestamp": 1775253746.128,
+          "target": "label:categories:::photo_regular:photo_regular",
+          "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
+          "client_timestamp": 1775253746128,
+          "metadata": {}
+        },
+        {
+          "event_type": "focus_out",
+          "timestamp": 1775253747.923,
+          "target": "label:categories:::photo_regular:photo_regular",
+          "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
+          "client_timestamp": 1775253747923,
+          "metadata": {
+            "duration_ms": 1794
           }
         },
         {
           "event_type": "navigation",
-          "timestamp": 1775252879.531,
+          "timestamp": 1775253747.972,
           "target": "next",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252879531,
+          "client_timestamp": 1775253747972,
           "metadata": {
             "from_instance": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
             "to_instance": null
@@ -1678,17 +1696,17 @@
         },
         {
           "event_type": "save",
-          "timestamp": 1775252879.531,
+          "timestamp": 1775253747.972,
           "target": "instance:1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
           "instance_id": "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg",
-          "client_timestamp": 1775252879531,
+          "client_timestamp": 1775253747972,
           "metadata": {}
         }
       ],
       "ai_usage": [],
       "annotation_changes": [
         {
-          "timestamp": 1775252877.285572,
+          "timestamp": 1775253739.452995,
           "schema_name": "origin",
           "label_name": "real",
           "action": "select",
@@ -1697,7 +1715,7 @@
           "source": "user"
         },
         {
-          "timestamp": 1775252878.295692,
+          "timestamp": 1775253741.016258,
           "schema_name": "categories",
           "label_name": "photo_regular",
           "action": "select",
@@ -1706,7 +1724,7 @@
           "source": "user"
         },
         {
-          "timestamp": 1775252878.298006,
+          "timestamp": 1775253741.01759,
           "schema_name": "categories",
           "label_name": "photo_regular",
           "action": "select",
@@ -1717,9 +1735,340 @@
       ],
       "navigation_history": [],
       "focus_time_by_element": {
-        "label:origin:real": 962,
-        "label:categories:::photo_regular:photo_regular": 1201
+        "label:origin:real": 1525,
+        "label:categories:::photo_regular:photo_regular": 2657
       },
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg": {
+      "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+      "session_start": 1775253752.982142,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1775253748.215,
+          "target": "instance_load",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253748215,
+          "metadata": {
+            "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1775253752.975,
+          "target": "schema:origin",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253752975,
+          "metadata": {
+            "x": 72,
+            "y": 121
+          }
+        },
+        {
+          "event_type": "focus_in",
+          "timestamp": 1775253752.976,
+          "target": "label:origin:real",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253752976,
+          "metadata": {}
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1775253752.976,
+          "target": "label:origin:real",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253752976,
+          "metadata": {
+            "x": 72,
+            "y": 121
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1775253752.976,
+          "target": "schema:origin",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253752976,
+          "metadata": {
+            "label": "real",
+            "action": "select",
+            "old_value": null,
+            "new_value": "real",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1775253753.478,
+          "target": "instance:1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253753478,
+          "metadata": {}
+        },
+        {
+          "event_type": "focus_out",
+          "timestamp": 1775253754.773,
+          "target": "label:origin:real",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253754773,
+          "metadata": {
+            "duration_ms": 1797
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1775253754.823,
+          "target": "schema:categories",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253754823,
+          "metadata": {
+            "x": 477,
+            "y": 198
+          }
+        },
+        {
+          "event_type": "focus_in",
+          "timestamp": 1775253754.824,
+          "target": "label:categories:::illustration_digital:illustration_digital",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253754824,
+          "metadata": {}
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1775253754.824,
+          "target": "label:categories:::illustration_digital:illustration_digital",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253754824,
+          "metadata": {
+            "x": 477,
+            "y": 198
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1775253754.824,
+          "target": "schema:categories",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253754824,
+          "metadata": {
+            "label": "illustration_digital",
+            "action": "select",
+            "old_value": null,
+            "new_value": "illustration_digital",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1775253754.824,
+          "target": "schema:categories",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253754824,
+          "metadata": {
+            "label": "illustration_digital",
+            "action": "select",
+            "old_value": null,
+            "new_value": "illustration_digital",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1775253755.326,
+          "target": "instance:1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253755326,
+          "metadata": {}
+        },
+        {
+          "event_type": "focus_out",
+          "timestamp": 1775253755.803,
+          "target": "label:categories:::illustration_digital:illustration_digital",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253755803,
+          "metadata": {
+            "duration_ms": 978
+          }
+        },
+        {
+          "event_type": "navigation",
+          "timestamp": 1775253755.853,
+          "target": "next",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253755853,
+          "metadata": {
+            "from_instance": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+            "to_instance": null
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1775253755.853,
+          "target": "instance:1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "instance_id": "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg",
+          "client_timestamp": 1775253755853,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1775253752.982153,
+          "schema_name": "origin",
+          "label_name": "real",
+          "action": "select",
+          "old_value": null,
+          "new_value": "real",
+          "source": "user"
+        },
+        {
+          "timestamp": 1775253754.828511,
+          "schema_name": "categories",
+          "label_name": "illustration_digital",
+          "action": "select",
+          "old_value": null,
+          "new_value": "illustration_digital",
+          "source": "user"
+        },
+        {
+          "timestamp": 1775253754.831386,
+          "schema_name": "categories",
+          "label_name": "illustration_digital",
+          "action": "select",
+          "old_value": null,
+          "new_value": "illustration_digital",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {
+        "label:origin:real": 1797,
+        "label:categories:::illustration_digital:illustration_digital": 978
+      },
+      "scroll_depth_max": 0.0,
+      "keyword_highlights_shown": [],
+      "chat_history": []
+    },
+    "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg": {
+      "instance_id": "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg",
+      "session_start": 1775253761.110118,
+      "session_end": null,
+      "total_time_ms": 0,
+      "interactions": [
+        {
+          "event_type": "navigation",
+          "timestamp": 1775253756.105,
+          "target": "instance_load",
+          "instance_id": "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg",
+          "client_timestamp": 1775253756105,
+          "metadata": {
+            "instance_id": "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg",
+            "from_instance": null
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1775253762.649,
+          "target": "schema:origin",
+          "instance_id": "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg",
+          "client_timestamp": 1775253762649,
+          "metadata": {
+            "x": 96,
+            "y": 467
+          }
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1775253763.083,
+          "target": "schema:origin",
+          "instance_id": "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg",
+          "client_timestamp": 1775253763083,
+          "metadata": {
+            "x": 91,
+            "y": 481
+          }
+        },
+        {
+          "event_type": "focus_in",
+          "timestamp": 1775253763.084,
+          "target": "label:origin:real",
+          "instance_id": "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg",
+          "client_timestamp": 1775253763084,
+          "metadata": {}
+        },
+        {
+          "event_type": "click",
+          "timestamp": 1775253763.085,
+          "target": "label:origin:real",
+          "instance_id": "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg",
+          "client_timestamp": 1775253763085,
+          "metadata": {
+            "x": 91,
+            "y": 481
+          }
+        },
+        {
+          "event_type": "annotation_change",
+          "timestamp": 1775253763.085,
+          "target": "schema:origin",
+          "instance_id": "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg",
+          "client_timestamp": 1775253763085,
+          "metadata": {
+            "label": "real",
+            "action": "select",
+            "old_value": null,
+            "new_value": "real",
+            "source": "user"
+          }
+        },
+        {
+          "event_type": "save",
+          "timestamp": 1775253763.586,
+          "target": "instance:1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg",
+          "instance_id": "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg",
+          "client_timestamp": 1775253763586,
+          "metadata": {}
+        }
+      ],
+      "ai_usage": [],
+      "annotation_changes": [
+        {
+          "timestamp": 1775253763.091073,
+          "schema_name": "origin",
+          "label_name": "real",
+          "action": "select",
+          "old_value": null,
+          "new_value": "real",
+          "source": "user"
+        },
+        {
+          "timestamp": 1775253778.641649,
+          "schema_name": "categories",
+          "label_name": "cartoon_regular",
+          "action": "select",
+          "old_value": null,
+          "new_value": "cartoon_regular",
+          "source": "user"
+        },
+        {
+          "timestamp": 1775253778.644541,
+          "schema_name": "categories",
+          "label_name": "cartoon_regular",
+          "action": "select",
+          "old_value": null,
+          "new_value": "cartoon_regular",
+          "source": "user"
+        }
+      ],
+      "navigation_history": [],
+      "focus_time_by_element": {},
       "scroll_depth_max": 0.0,
       "keyword_highlights_shown": [],
       "chat_history": []
@@ -1733,6 +2082,38 @@
           "name": "photo_regular"
         },
         "photo_regular"
+      ],
+      [
+        {
+          "schema": "origin",
+          "name": "real"
+        },
+        "real"
+      ]
+    ],
+    "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg": [
+      [
+        {
+          "schema": "categories",
+          "name": "illustration_digital"
+        },
+        "illustration_digital"
+      ],
+      [
+        {
+          "schema": "origin",
+          "name": "real"
+        },
+        "real"
+      ]
+    ],
+    "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg": [
+      [
+        {
+          "schema": "categories",
+          "name": "cartoon_regular"
+        },
+        "cartoon_regular"
       ],
       [
         {
@@ -1768,6 +2149,22 @@
     "1813319991086797002-batch_6-GSjqPT9XEAAz-Wj.jpg": {
       "highlights": [],
       "seed": 3159945849,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "1819993248875844072-batch_14-GUHqFQAaUAA5oC4.jpg": {
+      "highlights": [],
+      "seed": 3546859621,
+      "settings": {
+        "keyword_probability": 1.0,
+        "random_word_probability": 0.0
+      }
+    },
+    "1819509863464292403-batch_13-GUAydYIWEAAm-ms.jpg": {
+      "highlights": [],
+      "seed": 594682455,
       "settings": {
         "keyword_probability": 1.0,
         "random_word_probability": 0.0

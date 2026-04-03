@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Image Grid Visualizer</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: monospace; background: #111; color: #eee; padding: 16px; }
+    h1 { font-size: 16px; margin-bottom: 12px; color: #aaa; }
+
+    #controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      align-items: flex-end;
+      margin-bottom: 12px;
+      padding: 12px;
+      background: #1a1a1a;
+      border: 1px solid #333;
+    }
+
+    .filter-group { display: flex; flex-direction: column; gap: 4px; }
+    .filter-group label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1px; }
+
+    select {
+      background: #222;
+      color: #eee;
+      border: 1px solid #444;
+      padding: 4px 8px;
+      font-family: monospace;
+      font-size: 13px;
+      min-width: 160px;
+      min-height: 32px;
+      cursor: pointer;
+    }
+    select[multiple] { min-height: 90px; }
+    select option:checked { background: #2a4a7f; }
+
+    button {
+      background: #2a4a7f;
+      color: #eee;
+      border: 1px solid #3a6abf;
+      padding: 6px 16px;
+      font-family: monospace;
+      font-size: 13px;
+      cursor: pointer;
+      align-self: flex-end;
+    }
+    button:hover { background: #3a6abf; }
+
+    #status { font-size: 12px; color: #666; margin-bottom: 10px; }
+
+    #grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 6px;
+    }
+
+    .cell {
+      position: relative;
+      aspect-ratio: 1;
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .cell img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .cell .label {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      background: rgba(0,0,0,0.7);
+      font-size: 9px;
+      padding: 2px 4px;
+      color: #bbb;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: none;
+    }
+    .cell:hover .label { display: block; }
+    .cell .broken {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      color: #444;
+      font-size: 11px;
+    }
+
+    /* Lightbox */
+    #lightbox {
+      display: none;
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.92);
+      z-index: 100;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+    }
+    #lightbox.active { display: flex; }
+    #lightbox img { max-width: 90vw; max-height: 85vh; object-fit: contain; border: 1px solid #333; }
+    #lightbox-info { font-size: 12px; color: #888; }
+    #lightbox-close {
+      position: absolute; top: 12px; right: 16px;
+      font-size: 20px; cursor: pointer; color: #aaa;
+      background: none; border: none;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Image Grid Visualizer</h1>
+
+<div id="controls">
+  <div class="filter-group">
+    <label>Categories (AND)</label>
+    <select id="sel-categories" multiple></select>
+  </div>
+  <div class="filter-group">
+    <label>Origin (AND)</label>
+    <select id="sel-origins" multiple></select>
+  </div>
+  <button id="btn-reset">Reset</button>
+</div>
+
+<div id="status">Loading...</div>
+<div id="grid"></div>
+
+<div id="lightbox">
+  <button id="lightbox-close">✕</button>
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-info"></div>
+</div>
+
+<script>
+  const selCats = document.getElementById('sel-categories');
+  const selOrigs = document.getElementById('sel-origins');
+  const grid = document.getElementById('grid');
+  const status = document.getElementById('status');
+  const lightbox = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightbox-img');
+  const lbInfo = document.getElementById('lightbox-info');
+
+  function getSelected(sel) {
+    return Array.from(sel.selectedOptions).map(o => o.value);
+  }
+
+  async function loadOptions() {
+    const res = await fetch('/api/options');
+    const data = await res.json();
+    data.categories.forEach(c => {
+      const o = document.createElement('option'); o.value = o.textContent = c;
+      selCats.appendChild(o);
+    });
+    data.origins.forEach(o => {
+      const el = document.createElement('option'); el.value = el.textContent = o;
+      selOrigs.appendChild(el);
+    });
+    loadImages();
+  }
+
+  async function loadImages() {
+    const cats = getSelected(selCats);
+    const origs = getSelected(selOrigs);
+    const params = new URLSearchParams();
+    cats.forEach(c => params.append('categories', c));
+    origs.forEach(o => params.append('origins', o));
+
+    status.textContent = 'Loading...';
+    grid.innerHTML = '';
+
+    const res = await fetch('/api/images?' + params);
+    const data = await res.json();
+    status.textContent = `${data.total} image${data.total !== 1 ? 's' : ''}`;
+
+    data.images.forEach(item => {
+      const cell = document.createElement('div');
+      cell.className = 'cell';
+
+      const img = document.createElement('img');
+      img.src = `/images/${item.id}`;
+      img.alt = item.id;
+      img.loading = 'lazy';
+      img.onerror = () => {
+        img.remove();
+        const b = document.createElement('div');
+        b.className = 'broken';
+        b.textContent = '✗';
+        cell.appendChild(b);
+      };
+
+      const label = document.createElement('div');
+      label.className = 'label';
+      label.textContent = item.id;
+
+      cell.appendChild(img);
+      cell.appendChild(label);
+      cell.addEventListener('click', () => openLightbox(item));
+      grid.appendChild(cell);
+    });
+  }
+
+  function openLightbox(item) {
+    lbImg.src = `/images/${item.id}`;
+    lbInfo.textContent = `${item.id} | categories: ${item.categories.join(', ')} | origin: ${item.origin.join(', ')}`;
+    lightbox.classList.add('active');
+  }
+
+  document.getElementById('lightbox-close').onclick = () => lightbox.classList.remove('active');
+  lightbox.addEventListener('click', e => { if (e.target === lightbox) lightbox.classList.remove('active'); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') lightbox.classList.remove('active'); });
+
+  document.getElementById('btn-reset').onclick = () => {
+    Array.from(selCats.options).forEach(o => o.selected = false);
+    Array.from(selOrigs.options).forEach(o => o.selected = false);
+    loadImages();
+  };
+
+  selCats.addEventListener('change', loadImages);
+  selOrigs.addEventListener('change', loadImages);
+
+  loadOptions();
+</script>
+</body>
+</html>

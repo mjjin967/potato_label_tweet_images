@@ -4,32 +4,42 @@ https://potato-annotation.readthedocs.io/en/latest/
 
 ## Setup
 ```bash
-pip install potato-annotation
+pip install potato-annotation flask
 ```
 
 ## How to run
- 
+To run the visualizer, run `python visualizer/server.py --csv your_data.csv --images images_dir`.
+For example, to see the annotations Jean has done, run
 ```bash
-potato start config.yaml -p 8000 
+python server.py --csv potato/annotations_jean.csv --images potato/data/media_jean
+```
+
+To run the labeler,
+```bash
+potato start <your_config_file> -p 8000 
 ```
 from the root directory. Go to `localhost:8000`
 
-Once you register and start labeling, a log of your labeling activity will be created under `annotation_output/image-labeling/<your_username>/user_state.json`.
-Your labeling activity will be automatically saved once you stop the local server.
+Once you register with `<your_user_name>` and start labeling, a log of your labeling activity will be created under `annotation_output/image-labeling/<your_username>/user_state.json`.
+Refer to section "Directory Structure" below for more.
+Your labeling activity will be automatically saved.
+
+To visualize your annotations, you must save your annotations to a csv file.
+Put in your name in `save_annotations_to_csv.py` and save your annotations into a csv file.
 
 ## Directory Structure
-
 ```bash
-potato_label_tweet_images/
+potato/
 ├── annotation_output
 │   └── image-labeling
 │       └── <your_username>
 │           └── user_state.json
-├── config.yaml
+├── config_<your_name>.yaml
+├── save_annotations_to_csv.py
 ├── data/
-│   ├── images.jsonl
-│   └── media/
-│       └── images
+│   ├── images_<your_name>.jsonl
+│   └── media_<your_name>/
+│       └── images ...
 └── layouts/
     └── task_layout.html
 └── templates/

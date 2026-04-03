@@ -3,7 +3,7 @@
 "data_files":
   - "data/images.jsonl"
 
-"media_directory": "/Users/jeanlee/phd_code/twitter_extraction/potato/data/media"
+"media_directory": "data/media"
 
 "item_properties":
   "id_key": "id"
@@ -17,6 +17,14 @@
 
 "output_annotation_dir": "annotation_output/image-labeling"
 "output_file_format": "jsonl"
+
+"automatic_assignment":
+  "on": True
+  "output_filename": "task_assignment.json"
+  "sampling_strategy": "ordered"   # or "random"
+  "labels_per_instance": 1         # each image assigned to only 1 person
+  "instance_per_annotator": 500    # however many images each person should do
+  "test_question_per_annotator": 0
 
 "html_layout": "templates/image_layout.html"
 

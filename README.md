@@ -28,9 +28,9 @@ Once you register with `<your_user_name>` and start labeling, a log of your labe
 
 Refer to section "Directory Structure" below for more.
 
-Your labeling activity will be automatically saved.
+**If you come up with new labels, you must add them in the config file.** Then simply restart the server. Your labeling activity will be automatically saved. Log in via the "Register" tab if "login" doesn't work.
 
-To visualize your annotations, you must save your annotations to a csv file.
+To visualize your annotations, you must **save your annotations to a csv file**.
 Put in your name in `save_annotations_to_csv.py` and save your annotations into a csv file.
 
 ## Directory Structure

@@ -2,7 +2,9 @@ import json
 import pandas as pd
 
 # TODO: put in your user_name under annotation_output/image-labeling
-user_name = "jean"
+user_name = ""
+if user_name == "":
+    raise ValueError("Please set your user_name in save_annotations_to_csv.py")
 
 with open(f"annotation_output/image-labeling/{user_name}/user_state.json") as f:
     state = json.load(f)

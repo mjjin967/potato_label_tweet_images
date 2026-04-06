@@ -34,29 +34,28 @@
     "name": "categories"
     "description": "Select all applicable categories"
     "labels":
-      # Photographic
-      - "photo_regular"          # Real-world subjects, no explicit content
-      - "photo_explicit"         # NSFW photorealistic content
-      - "photo_composite"        # Photo manipulations / blended images
-
-      # Illustrated / Artistic
-      - "illustration_digital"   # General digital art, concept art
-      - "illustration_traditional" # Art mimicking paint, watercolor, pencil, etc.
-      - "cartoon_regular"        # Stylized characters/scenes, SFW
-      - "cartoon_explicit"       # Stylized characters/scenes, NSFW
-      - "anime_regular"          # Anime/manga style, SFW
-      - "anime_explicit"         # Anime/manga style, NSFW
-
-      # Text-Forward
-      - "poster"                 # Promotional or decorative, text + visuals
-      - "infographic"            # Data, diagrams, explainer visuals
-      - "meme_photo"             # Photo-based meme format
-      - "meme_illustration"      # Drawn/illustrated meme format
-      - "screenshot_fake"        # Fabricated UI, fake tweets, chat logs, etc.
-
-      # Hybrid / Ambiguous
-      - "avatar_profile"         # Headshots or portraits used as profile pics
-      - "logo_branding"          # Brand marks, icons, product visuals
-      - "video_thumbnail"        # Clickbait-style preview stills
+      # Subject matter
+      - "people_celebrities"
+      - "people_regular"
+      - "scenery"
+      - "objects"
+      # photorealistic or edited
+      - "photorealistic" # looks just like a photo
+      - "edited_photorealistic" # has photographic elements but edited
+      - "cartoon_comics"
+      - "illustrated_digital"
+      # Cartoons and comics
+      - "comic_strip"
+      - "meme"
+      - "poster" # e.g. infographics, promotional materials, etc.
+      # sfw vs nsfw
+      - "nsfw"
+      # Screenshots
+      - "screenshot_social_media"
+      - "screenshot_game"
+      - "screenshot_cartoon" # e.g. anime screenshot, cartoon still, etc.
+      # Thematic
+      - "religious"
+      - "political"
       # add more as you discover them
     "has_free_response": True  # lets you type in new categories on the fly

@@ -1,0 +1,68 @@
+"annotation_task_name": "Image Labeling"
+
+"data_files":
+  - "data/images_real.jsonl"
+
+"media_directory": "data/media_real"
+
+"item_properties":
+  "id_key": "id"
+  "text_key": "text"
+  "use_html": true
+
+"instance_display":
+  "fields":
+    - "type": "image"
+      "key": "url"
+
+"output_annotation_dir": "annotation_output/image-labeling"
+"output_file_format": "jsonl"
+
+"html_layout": "templates/image_layout.html"
+
+"annotation_schemes":
+  - "annotation_type": "radio"
+    "name": "origin"
+    "description": "Is this image AI-generated or real?"
+    "labels":
+      - "ai-generated"
+      - "non-ai"
+      - "unknown"
+    "sequential_key_binding": True
+
+  - "annotation_type": "radio"
+    "name": "style"
+    "description": "Style of the image?"
+    "labels":
+      - "photorealistic"
+      - "digital/synthetic/illustration"
+      - "ambiguous/mixed"
+
+  - "annotation_type": "radio"
+    "name": "source"
+    "description": "Source / manipulation level?"
+    "labels":
+      - "Likely AI-generated"
+      - "Heavily edited (using software, collages, text, etc.)"
+      - "Lightly edited (lighting, retouching, constrast, etc.)"
+      - "Unedited"
+
+  - "annotation_type": "multiselect"
+    "name": "format"
+    "description": "Format of the image?"
+    "labels":
+      - "meme (evokes emotions, humor, or social commentary with or without text)"
+      - "poster (movie, informational content)"
+      - "screenshot (from video games, social media, etc.)"
+      - "art (fanart, digital art, etc. visual creation)"
+      - "product photographs / promotional material"
+
+  - "annotation_type": "multiselect"
+    "name": "content"
+    "description": "Content / topic of the image?"
+    "labels":
+      - "NSFW"
+      - "politics"
+      - "sports"
+      - "religion"
+      - "entertainment / tv"

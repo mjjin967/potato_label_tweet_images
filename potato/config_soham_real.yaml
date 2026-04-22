@@ -1,0 +1,60 @@
+"annotation_task_name": "Image Labeling"
+
+"data_files":
+  - "data/images_real.jsonl"
+
+"media_directory": "data/media_real"
+
+"item_properties":
+  "id_key": "id"
+  "text_key": "text"
+  "use_html": true
+
+"instance_display":
+  "fields":
+    - "type": "image"
+      "key": "url"
+
+"output_annotation_dir": "annotation_output/image-labeling"
+"output_file_format": "jsonl"
+
+"html_layout": "templates/image_layout.html"
+
+"annotation_schemes":
+  - "annotation_type": "radio"
+    "name": "origin"
+    "description": "Is this image AI-generated or real?"
+    "labels":
+      - "ai-generated"
+      - "real"
+      - "unknown"
+    "sequential_key_binding": True
+
+  - "annotation_type": "multiselect"
+    "name": "categories"
+    "description": "Select all applicable categories"
+    "labels":
+      # Subject matter
+      - "people_celebrities"
+      - "people_regular"
+      - "scenery"
+      - "objects"
+      # photorealistic or edited
+      - "photorealistic" # looks just like a photo
+      - "edited_photorealistic" # has photographic elements but edited
+      - "cartoon_comics"
+      - "illustrated_digital"
+      # Cartoons and comics
+      - "comic_strip"
+      - "meme"
+      - "poster" # e.g. infographics, promotional materials, etc.
+      # sfw vs nsfw
+      - "nsfw"
+      # Screenshots
+      - "screenshot_social_media"
+      - "screenshot_game"
+      - "screenshot_cartoon" # e.g. anime screenshot, cartoon still, etc.
+      # Thematic
+      - "religious"
+      - "political"
+      # add more as you discover them

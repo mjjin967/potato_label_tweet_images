@@ -26,35 +26,43 @@
     "description": "Is this image AI-generated or real?"
     "labels":
       - "ai-generated"
-      - "real"
+      - "non-ai"
       - "unknown"
     "sequential_key_binding": True
 
-  - "annotation_type": "multiselect"
-    "name": "categories"
-    "description": "Select all applicable categories"
+  - "annotation_type": "radio"
+    "name": "style"
+    "description": "Style of the image?"
     "labels":
-      # Subject matter
-      - "people_celebrities"
-      - "people_regular"
-      - "scenery"
-      - "objects"
-      # photorealistic or edited
-      - "photorealistic" # looks just like a photo
-      - "edited_photorealistic" # has photographic elements but edited
-      - "cartoon_comics"
-      - "illustrated_digital"
-      # Cartoons and comics
-      - "comic_strip"
-      - "meme"
-      - "poster" # e.g. infographics, promotional materials, etc.
-      # sfw vs nsfw
-      - "nsfw"
-      # Screenshots
-      - "screenshot_social_media"
-      - "screenshot_game"
-      - "screenshot_cartoon" # e.g. anime screenshot, cartoon still, etc.
-      # Thematic
-      - "religious"
-      - "political"
-      # add more as you discover them
+      - "photorealistic"
+      - "digital/synthetic/illustration"
+      - "ambiguous/mixed"
+
+  - "annotation_type": "radio"
+    "name": "source"
+    "description": "Source / manipulation level?"
+    "labels":
+      - "Likely AI-generated"
+      - "Heavily edited (using software, collages, text, etc.)"
+      - "Lightly edited (lighting, retouching, constrast, etc.)"
+      - "Unedited"
+
+  - "annotation_type": "multiselect"
+    "name": "format"
+    "description": "Format of the image?"
+    "labels":
+      - "meme (evokes emotions, humor, or social commentary with or without text)"
+      - "poster (movie, informational content)"
+      - "screenshot (from video games, social media, etc.)"
+      - "art (fanart, digital art, etc. visual creation)"
+      - "product photographs / promotional material"
+
+  - "annotation_type": "multiselect"
+    "name": "content"
+    "description": "Content / topic of the image?"
+    "labels":
+      - "NSFW"
+      - "politics"
+      - "sports"
+      - "religion"
+      - "entertainment / tv"

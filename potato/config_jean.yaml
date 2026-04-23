@@ -1,9 +1,9 @@
 "annotation_task_name": "Image Labeling"
 
 "data_files":
-  - "data/images_jean.jsonl"
+  - "data/images_martin.jsonl"
 
-"media_directory": "data/media_jean"
+"media_directory": "data/media_martin"
 
 "item_properties":
   "id_key": "id"

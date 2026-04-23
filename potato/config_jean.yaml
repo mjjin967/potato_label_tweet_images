@@ -51,6 +51,7 @@
     "name": "format"
     "description": "Format of the image?"
     "labels":
+      - "photo"
       - "meme (evokes emotions, humor, or social commentary with or without text)"
       - "poster (movie, informational content)"
       - "screenshot (from video games, social media, etc.)"

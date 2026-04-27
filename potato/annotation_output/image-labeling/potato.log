@@ -1,166 +1,50 @@
-2026-04-05 18:46:30 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: True
-2026-04-05 18:46:30 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
-2026-04-05 18:46:30 [INFO] server_utils.front_end: Generating anntotation site at /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/venv/lib/python3.13/site-packages/potato/templates
-2026-04-05 18:46:30 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-05 18:46:30 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 15 options
-2026-04-05 18:46:30 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-05 18:46:30 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-05 18:46:30 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-05 18:46:30 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 15 options
-2026-04-05 18:46:30 [INFO] server_utils.front_end: Generated annotation layout file: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-05 18:46:30 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-05 18:46:30 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 15 options
-2026-04-05 18:46:30 [INFO] potato.flask_server: Loaded user data for 0 users
-2026-04-05 18:46:30 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
-2026-04-05 18:46:30 [INFO] potato.flask_server: Knowledge base manager initialized
-2026-04-05 18:46:30 [INFO] potato.flask_server: Password authentication required: True
-2026-04-05 18:46:30 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters
-2026-04-05 18:46:33 [WARNING] potato.flask_server: Update instance without active session
-2026-04-05 18:57:12 [INFO] potato.flask_server: Annotation platform shutdown complete
-2026-04-05 18:57:29 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: True
-2026-04-05 18:57:29 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
-2026-04-05 18:57:29 [INFO] server_utils.front_end: Generating anntotation site at /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/venv/lib/python3.13/site-packages/potato/templates
-2026-04-05 18:57:29 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-05 18:57:29 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 17 options
-2026-04-05 18:57:29 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-05 18:57:29 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-05 18:57:29 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-05 18:57:29 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 17 options
-2026-04-05 18:57:29 [INFO] server_utils.front_end: Generated annotation layout file: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-05 18:57:29 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-05 18:57:29 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 17 options
-2026-04-05 18:57:29 [INFO] potato.flask_server: Loaded user data for 1 users
-2026-04-05 18:57:29 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
-2026-04-05 18:57:29 [INFO] potato.flask_server: Knowledge base manager initialized
-2026-04-05 18:57:29 [INFO] potato.flask_server: Password authentication required: True
-2026-04-05 18:57:29 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters
-2026-04-05 18:57:45 [WARNING] potato.authentication: Authentication failed: user 'jean' does not exist
-2026-04-05 18:57:45 [WARNING] potato.flask_server: Login failed for user: jean
-2026-04-05 18:57:48 [WARNING] potato.authentication: Authentication failed: user 'jean' does not exist
-2026-04-05 18:57:48 [WARNING] potato.flask_server: Login failed for user: jean
-2026-04-05 18:57:52 [WARNING] potato.authentication: Authentication failed: user 'jean' does not exist
-2026-04-05 18:57:52 [WARNING] potato.flask_server: Login failed for user: jean
-2026-04-06 10:16:37 [INFO] potato.flask_server: Annotation platform shutdown complete
-2026-04-06 11:12:08 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: True
-2026-04-06 11:12:08 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
-2026-04-06 11:12:08 [INFO] server_utils.front_end: Generating anntotation site at /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/venv/lib/python3.13/site-packages/potato/templates
-2026-04-06 11:12:08 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-06 11:12:08 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 17 options
-2026-04-06 11:12:08 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-06 11:12:08 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-06 11:12:08 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-06 11:12:08 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 17 options
-2026-04-06 11:12:08 [INFO] server_utils.front_end: Generated annotation layout file: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-06 11:12:08 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-06 11:12:08 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 17 options
-2026-04-06 11:12:08 [INFO] potato.flask_server: Loaded user data for 1 users
-2026-04-06 11:12:08 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
-2026-04-06 11:12:08 [INFO] potato.flask_server: Knowledge base manager initialized
-2026-04-06 11:12:08 [INFO] potato.flask_server: Password authentication required: True
-2026-04-06 11:12:08 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters
-2026-04-06 11:12:27 [INFO] potato.flask_server: Annotation platform shutdown complete
-2026-04-14 12:56:50 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: True
-2026-04-14 12:56:50 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
-2026-04-14 12:56:50 [INFO] server_utils.front_end: Generating anntotation site at /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/venv/lib/python3.13/site-packages/potato/templates
-2026-04-14 12:56:50 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-14 12:56:50 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 17 options
-2026-04-14 12:56:50 [INFO] server_utils.front_end: Using existing annotation layout file: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html (hash match)
-2026-04-14 12:56:50 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-14 12:56:50 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 17 options
-2026-04-14 12:56:50 [INFO] potato.flask_server: Loaded user data for 1 users
-2026-04-14 12:56:50 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
-2026-04-14 12:56:50 [INFO] potato.flask_server: Knowledge base manager initialized
-2026-04-14 12:56:50 [INFO] potato.flask_server: Password authentication required: True
-2026-04-14 12:56:50 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters
-2026-04-14 13:19:47 [INFO] potato.flask_server: Annotation platform shutdown complete
-2026-04-14 13:20:18 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: True
-2026-04-14 13:20:18 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
-2026-04-14 13:20:18 [INFO] server_utils.front_end: Generating anntotation site at /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/venv/lib/python3.13/site-packages/potato/templates
-2026-04-14 13:20:18 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-14 13:20:18 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 18 options
-2026-04-14 13:20:18 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-14 13:20:18 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-14 13:20:18 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-14 13:20:18 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 18 options
-2026-04-14 13:20:18 [INFO] server_utils.front_end: Generated annotation layout file: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-14 13:20:18 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-14 13:20:18 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for categories with 18 options
-2026-04-14 13:20:18 [INFO] potato.flask_server: Loaded user data for 1 users
-2026-04-14 13:20:18 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
-2026-04-14 13:20:18 [INFO] potato.flask_server: Knowledge base manager initialized
-2026-04-14 13:20:18 [INFO] potato.flask_server: Password authentication required: True
-2026-04-14 13:20:18 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters
-2026-04-14 13:20:20 [WARNING] potato.flask_server: Update instance without active session
-2026-04-14 14:23:22 [INFO] potato.flask_server: Annotation platform shutdown complete
-2026-04-15 17:29:40 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: True
-2026-04-15 17:29:40 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
-2026-04-15 17:29:40 [INFO] server_utils.front_end: Generating anntotation site at /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/venv/lib/python3.13/site-packages/potato/templates
-2026-04-15 17:29:40 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-15 17:29:40 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
-2026-04-15 17:29:40 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-15 17:29:40 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-15 17:29:40 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-15 17:29:40 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
-2026-04-15 17:29:40 [INFO] server_utils.front_end: Generated annotation layout file: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-15 17:29:40 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-15 17:29:40 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
-2026-04-15 17:29:40 [INFO] potato.flask_server: Loaded user data for 1 users
-2026-04-15 17:29:40 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
-2026-04-15 17:29:40 [INFO] potato.flask_server: Knowledge base manager initialized
-2026-04-15 17:29:40 [INFO] potato.flask_server: Password authentication required: True
-2026-04-15 17:29:40 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters
-2026-04-15 17:30:22 [INFO] potato.flask_server: Annotation platform shutdown complete
-2026-04-15 17:34:39 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: True
-2026-04-15 17:34:39 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
-2026-04-15 17:34:39 [INFO] server_utils.front_end: Generating anntotation site at /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/venv/lib/python3.13/site-packages/potato/templates
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for source with 4 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for format with 5 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for content with 5 options
-2026-04-15 17:34:39 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-15 17:34:39 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for source with 4 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for format with 5 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for content with 5 options
-2026-04-15 17:34:39 [INFO] server_utils.front_end: Generated annotation layout file: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for source with 4 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for format with 5 options
-2026-04-15 17:34:39 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for content with 5 options
-2026-04-15 17:34:39 [INFO] potato.flask_server: Loaded user data for 1 users
-2026-04-15 17:34:39 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
-2026-04-15 17:34:39 [INFO] potato.flask_server: Knowledge base manager initialized
-2026-04-15 17:34:39 [INFO] potato.flask_server: Password authentication required: True
-2026-04-15 17:34:39 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters
-2026-04-15 17:37:23 [INFO] potato.flask_server: Annotation platform shutdown complete
-2026-04-15 17:37:25 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: True
-2026-04-15 17:37:25 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
-2026-04-15 17:37:25 [INFO] server_utils.front_end: Generating anntotation site at /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/venv/lib/python3.13/site-packages/potato/templates
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for source with 4 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for format with 5 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for content with 5 options
-2026-04-15 17:37:25 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-15 17:37:25 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for source with 4 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for format with 5 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for content with 5 options
-2026-04-15 17:37:25 [INFO] server_utils.front_end: Generated annotation layout file: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for source with 4 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for format with 5 options
-2026-04-15 17:37:25 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for content with 5 options
-2026-04-15 17:37:25 [INFO] potato.flask_server: Loaded user data for 1 users
-2026-04-15 17:37:25 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
-2026-04-15 17:37:25 [INFO] potato.flask_server: Knowledge base manager initialized
-2026-04-15 17:37:25 [INFO] potato.flask_server: Password authentication required: True
-2026-04-15 17:37:25 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters
-2026-04-15 17:37:49 [INFO] potato.flask_server: Annotation platform shutdown complete
+2026-04-24 13:49:54 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: True
+2026-04-24 13:49:54 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
+2026-04-24 13:49:54 [INFO] server_utils.front_end: Generating anntotation site at /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/venv/lib/python3.13/site-packages/potato/templates
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for source with 4 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for format with 6 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for content with 5 options
+2026-04-24 13:49:54 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
+2026-04-24 13:49:54 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for source with 4 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for format with 6 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for content with 5 options
+2026-04-24 13:49:54 [INFO] server_utils.front_end: Generated annotation layout file: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for style with 3 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for source with 4 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for format with 6 options
+2026-04-24 13:49:54 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for content with 5 options
+2026-04-24 13:49:54 [INFO] potato.flask_server: Loaded user data for 1 users
+2026-04-24 13:49:54 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
+2026-04-24 13:49:54 [INFO] potato.flask_server: Knowledge base manager initialized
+2026-04-24 13:49:54 [INFO] potato.flask_server: Password authentication required: True
+2026-04-24 13:49:54 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters
+2026-04-24 16:01:19 [INFO] potato.flask_server: Annotation platform shutdown complete
+2026-04-27 13:22:47 [INFO] potato.authentication: Initialized UserAuthenticator with method: in_memory, require_password: True
+2026-04-27 13:22:47 [INFO] potato.item_state_management: ItemStateManager initialized with random_seed=1234
+2026-04-27 13:22:47 [INFO] server_utils.front_end: Generating anntotation site at /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/venv/lib/python3.13/site-packages/potato/templates
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for visual style with 4 options
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for format/function with 7 options
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for content with 8 options
+2026-04-27 13:22:47 [INFO] server_utils.front_end: Hash mismatch (config or schema code changed), regenerating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
+2026-04-27 13:22:47 [INFO] server_utils.front_end: Annotation layout file not found or hash mismatch, generating: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for visual style with 4 options
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for format/function with 7 options
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for content with 8 options
+2026-04-27 13:22:47 [INFO] server_utils.front_end: Generated annotation layout file: /Users/jeanlee/phd_code/twitter_extraction/potato_label_tweet_images/potato/layouts/task_layout.html
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for visual style with 4 options
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.radio: Successfully generated radio layout for origin with 3 options
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for format/function with 7 options
+2026-04-27 13:22:47 [INFO] potato.server_utils.schemas.multiselect: Successfully generated multiselect layout for content with 8 options
+2026-04-27 13:22:47 [INFO] potato.flask_server: Loaded user data for 2 users
+2026-04-27 13:22:47 [WARNING] potato.server_utils.mturk_apis: boto3 not available, MTurk API disabled
+2026-04-27 13:22:47 [INFO] potato.flask_server: Knowledge base manager initialized
+2026-04-27 13:22:47 [INFO] potato.flask_server: Password authentication required: True
+2026-04-27 13:22:47 [INFO] potato.server_utils.html_sanitizer: Registered HTML sanitization Jinja2 filters

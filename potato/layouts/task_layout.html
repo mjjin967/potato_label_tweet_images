@@ -1,4 +1,4 @@
-<!-- CONFIG_HASH: 344dc01baf787f6447c0169b40733808_82d3b576cc27e928b26e166844c6c86c -->
+<!-- CONFIG_HASH: 5122c2712ce65d2cd574a5e83cf5b86b_2cae49bf96c763edbef481f0baeae956 -->
 <!-- Generated annotation layout file -->
 <!-- This file was automatically generated based on the annotation schemes in your config -->
 <!-- You can customize this file to modify the layout of your annotation interface -->
@@ -6,290 +6,253 @@
 
 <div class="annotation_schema">
 
-    <form id="origin" class="annotation-form radio shadcn-radio-container" action="/action_page.php" data-annotation-id="0" data-annotation-type="radio" data-schema-name="origin" data-grid-columns="1">
+    <form id="visual style" class="annotation-form radio shadcn-radio-container" action="/action_page.php" data-annotation-id="0" data-annotation-type="radio" data-schema-name="visual style" data-grid-columns="1">
         
-        <fieldset schema="origin">
-            <legend class="shadcn-radio-title">Is this image AI-generated or real?</legend>
+        <fieldset schema="visual style">
+            <legend class="shadcn-radio-title">What does the image look like aesthetically?</legend>
             <div class="shadcn-radio-options">
     
             <div class="shadcn-radio-option">
-                <input class="origin shadcn-radio-input annotation-input"
+                <input class="visual style shadcn-radio-input annotation-input"
                        type="radio"
-                       id="origin_ai-generated_radio"
-                       name="origin"
-                       value="ai-generated"
+                       id="visual style_photographic_radio"
+                       name="visual style"
+                       value="photographic"
                        selection_constraint="single"
-                       schema="origin"
-                       label_name="ai-generated"
+                       schema="visual style"
+                       label_name="photographic"
                        onclick="onlyOne(this);registerAnnotation(this);"
                        validation=""
                        data-key="1">
-                <label for="origin_ai-generated_radio" class="shadcn-radio-label" >ai-generated <span class="keybinding-badge">1</span></label>
+                <label for="visual style_photographic_radio" class="shadcn-radio-label" >photographic <span class="keybinding-badge">1</span></label>
             </div>
         
             <div class="shadcn-radio-option">
-                <input class="origin shadcn-radio-input annotation-input"
+                <input class="visual style shadcn-radio-input annotation-input"
                        type="radio"
-                       id="origin_non-ai_radio"
-                       name="origin"
-                       value="non-ai"
+                       id="visual style_illustrated/drawn_radio"
+                       name="visual style"
+                       value="illustrated/drawn"
                        selection_constraint="single"
-                       schema="origin"
-                       label_name="non-ai"
+                       schema="visual style"
+                       label_name="illustrated/drawn"
                        onclick="onlyOne(this);registerAnnotation(this);"
                        validation=""
                        data-key="2">
-                <label for="origin_non-ai_radio" class="shadcn-radio-label" >non-ai <span class="keybinding-badge">2</span></label>
+                <label for="visual style_illustrated/drawn_radio" class="shadcn-radio-label" >illustrated/drawn <span class="keybinding-badge">2</span></label>
+            </div>
+        
+            <div class="shadcn-radio-option">
+                <input class="visual style shadcn-radio-input annotation-input"
+                       type="radio"
+                       id="visual style_composite/mixed_radio"
+                       name="visual style"
+                       value="composite/mixed"
+                       selection_constraint="single"
+                       schema="visual style"
+                       label_name="composite/mixed"
+                       onclick="onlyOne(this);registerAnnotation(this);"
+                       validation=""
+                       data-key="3">
+                <label for="visual style_composite/mixed_radio" class="shadcn-radio-label" >composite/mixed <span class="keybinding-badge">3</span></label>
+            </div>
+        
+            <div class="shadcn-radio-option">
+                <input class="visual style shadcn-radio-input annotation-input"
+                       type="radio"
+                       id="visual style_text-dominant_radio"
+                       name="visual style"
+                       value="text-dominant"
+                       selection_constraint="single"
+                       schema="visual style"
+                       label_name="text-dominant"
+                       onclick="onlyOne(this);registerAnnotation(this);"
+                       validation=""
+                       data-key="4">
+                <label for="visual style_text-dominant_radio" class="shadcn-radio-label" >text-dominant <span class="keybinding-badge">4</span></label>
+            </div>
+        </div></fieldset></form>
+
+    <form id="origin" class="annotation-form radio shadcn-radio-container" action="/action_page.php" data-annotation-id="1" data-annotation-type="radio" data-schema-name="origin" data-grid-columns="1">
+        
+        <fieldset schema="origin">
+            <legend class="shadcn-radio-title">What is the likely origin of the media?</legend>
+            <div class="shadcn-radio-options">
+    
+            <div class="shadcn-radio-option">
+                <input class="origin shadcn-radio-input annotation-input"
+                       type="radio"
+                       id="origin_appears human-made_radio"
+                       name="origin"
+                       value="appears human-made"
+                       selection_constraint="single"
+                       schema="origin"
+                       label_name="appears human-made"
+                       onclick="onlyOne(this);registerAnnotation(this);"
+                       validation=""
+                       >
+                <label for="origin_appears human-made_radio" class="shadcn-radio-label" >appears human-made</label>
             </div>
         
             <div class="shadcn-radio-option">
                 <input class="origin shadcn-radio-input annotation-input"
                        type="radio"
-                       id="origin_unknown_radio"
+                       id="origin_appears AI-generated_radio"
                        name="origin"
-                       value="unknown"
+                       value="appears AI-generated"
                        selection_constraint="single"
                        schema="origin"
-                       label_name="unknown"
+                       label_name="appears AI-generated"
                        onclick="onlyOne(this);registerAnnotation(this);"
                        validation=""
-                       data-key="3">
-                <label for="origin_unknown_radio" class="shadcn-radio-label" >unknown <span class="keybinding-badge">3</span></label>
+                       >
+                <label for="origin_appears AI-generated_radio" class="shadcn-radio-label" >appears AI-generated</label>
+            </div>
+        
+            <div class="shadcn-radio-option">
+                <input class="origin shadcn-radio-input annotation-input"
+                       type="radio"
+                       id="origin_ambiguous/unclear_radio"
+                       name="origin"
+                       value="ambiguous/unclear"
+                       selection_constraint="single"
+                       schema="origin"
+                       label_name="ambiguous/unclear"
+                       onclick="onlyOne(this);registerAnnotation(this);"
+                       validation=""
+                       >
+                <label for="origin_ambiguous/unclear_radio" class="shadcn-radio-label" >ambiguous/unclear</label>
             </div>
         </div></fieldset></form>
 
-    <form id="style" class="annotation-form radio shadcn-radio-container" action="/action_page.php" data-annotation-id="1" data-annotation-type="radio" data-schema-name="style" data-grid-columns="1">
+    <form id="format/function" class="annotation-form multiselect shadcn-multiselect-container" action="/action_page.php" data-annotation-id="2" data-annotation-type="multiselect" data-schema-name="format/function" data-grid-columns="1">
         
-        <fieldset schema="style">
-            <legend class="shadcn-radio-title">Style of the image?</legend>
-            <div class="shadcn-radio-options">
-    
-            <div class="shadcn-radio-option">
-                <input class="style shadcn-radio-input annotation-input"
-                       type="radio"
-                       id="style_photorealistic_radio"
-                       name="style"
-                       value="photorealistic"
-                       selection_constraint="single"
-                       schema="style"
-                       label_name="photorealistic"
-                       onclick="onlyOne(this);registerAnnotation(this);"
-                       validation=""
-                       >
-                <label for="style_photorealistic_radio" class="shadcn-radio-label" >photorealistic</label>
-            </div>
-        
-            <div class="shadcn-radio-option">
-                <input class="style shadcn-radio-input annotation-input"
-                       type="radio"
-                       id="style_digital/synthetic/illustration_radio"
-                       name="style"
-                       value="digital/synthetic/illustration"
-                       selection_constraint="single"
-                       schema="style"
-                       label_name="digital/synthetic/illustration"
-                       onclick="onlyOne(this);registerAnnotation(this);"
-                       validation=""
-                       >
-                <label for="style_digital/synthetic/illustration_radio" class="shadcn-radio-label" >digital/synthetic/illustration</label>
-            </div>
-        
-            <div class="shadcn-radio-option">
-                <input class="style shadcn-radio-input annotation-input"
-                       type="radio"
-                       id="style_ambiguous/mixed_radio"
-                       name="style"
-                       value="ambiguous/mixed"
-                       selection_constraint="single"
-                       schema="style"
-                       label_name="ambiguous/mixed"
-                       onclick="onlyOne(this);registerAnnotation(this);"
-                       validation=""
-                       >
-                <label for="style_ambiguous/mixed_radio" class="shadcn-radio-label" >ambiguous/mixed</label>
-            </div>
-        </div></fieldset></form>
-
-    <form id="source" class="annotation-form radio shadcn-radio-container" action="/action_page.php" data-annotation-id="2" data-annotation-type="radio" data-schema-name="source" data-grid-columns="1">
-        
-        <fieldset schema="source">
-            <legend class="shadcn-radio-title">Source / manipulation level?</legend>
-            <div class="shadcn-radio-options">
-    
-            <div class="shadcn-radio-option">
-                <input class="source shadcn-radio-input annotation-input"
-                       type="radio"
-                       id="source_Likely AI-generated_radio"
-                       name="source"
-                       value="Likely AI-generated"
-                       selection_constraint="single"
-                       schema="source"
-                       label_name="Likely AI-generated"
-                       onclick="onlyOne(this);registerAnnotation(this);"
-                       validation=""
-                       >
-                <label for="source_Likely AI-generated_radio" class="shadcn-radio-label" >Likely AI-generated</label>
-            </div>
-        
-            <div class="shadcn-radio-option">
-                <input class="source shadcn-radio-input annotation-input"
-                       type="radio"
-                       id="source_Heavily edited (using software, collages, text, etc.)_radio"
-                       name="source"
-                       value="Heavily edited (using software, collages, text, etc.)"
-                       selection_constraint="single"
-                       schema="source"
-                       label_name="Heavily edited (using software, collages, text, etc.)"
-                       onclick="onlyOne(this);registerAnnotation(this);"
-                       validation=""
-                       >
-                <label for="source_Heavily edited (using software, collages, text, etc.)_radio" class="shadcn-radio-label" >Heavily edited (using software, collages, text, etc.)</label>
-            </div>
-        
-            <div class="shadcn-radio-option">
-                <input class="source shadcn-radio-input annotation-input"
-                       type="radio"
-                       id="source_Lightly edited (lighting, retouching, constrast, etc.)_radio"
-                       name="source"
-                       value="Lightly edited (lighting, retouching, constrast, etc.)"
-                       selection_constraint="single"
-                       schema="source"
-                       label_name="Lightly edited (lighting, retouching, constrast, etc.)"
-                       onclick="onlyOne(this);registerAnnotation(this);"
-                       validation=""
-                       >
-                <label for="source_Lightly edited (lighting, retouching, constrast, etc.)_radio" class="shadcn-radio-label" >Lightly edited (lighting, retouching, constrast, etc.)</label>
-            </div>
-        
-            <div class="shadcn-radio-option">
-                <input class="source shadcn-radio-input annotation-input"
-                       type="radio"
-                       id="source_Unedited_radio"
-                       name="source"
-                       value="Unedited"
-                       selection_constraint="single"
-                       schema="source"
-                       label_name="Unedited"
-                       onclick="onlyOne(this);registerAnnotation(this);"
-                       validation=""
-                       >
-                <label for="source_Unedited_radio" class="shadcn-radio-label" >Unedited</label>
-            </div>
-        </div></fieldset></form>
-
-    <form id="format" class="annotation-form multiselect shadcn-multiselect-container" action="/action_page.php" data-annotation-id="3" data-annotation-type="multiselect" data-schema-name="format" data-grid-columns="1">
-        
-        <fieldset schema="format">
-            <legend class="shadcn-multiselect-title">Format of the image?</legend>
+        <fieldset schema="format/function">
+            <legend class="shadcn-multiselect-title">How is the image being used or presented?</legend>
     <div class="shadcn-multiselect-grid" style="grid-template-columns: repeat(1, 1fr);">
             <div class="shadcn-multiselect-item">
-                <input class="format shadcn-multiselect-checkbox annotation-input"
+                <input class="format/function shadcn-multiselect-checkbox annotation-input"
                        type="checkbox"
-                       id="format_meme (evokes emotions, humor, or social commentary with or without text)_checkbox"
-                       name="format:::meme (evokes emotions, humor, or social commentary with or without text)"
-                       value="meme (evokes emotions, humor, or social commentary with or without text)"
-                       label_name="meme (evokes emotions, humor, or social commentary with or without text)"
-                       schema="format"
+                       id="format/function_personal/casual_checkbox"
+                       name="format/function:::personal/casual"
+                       value="personal/casual"
+                       label_name="personal/casual"
+                       schema="format/function"
                        onclick="whetherNone(this);registerAnnotation(this)"
                        validation="">
-                <label for="format_meme (evokes emotions, humor, or social commentary with or without text)_checkbox"  schema="format" class="shadcn-multiselect-label">
-                    meme (evokes emotions, humor, or social commentary with or without text) 
+                <label for="format/function_personal/casual_checkbox"  schema="format/function" class="shadcn-multiselect-label">
+                    personal/casual 
                 </label>
             </div>
         
             <div class="shadcn-multiselect-item">
-                <input class="format shadcn-multiselect-checkbox annotation-input"
+                <input class="format/function shadcn-multiselect-checkbox annotation-input"
                        type="checkbox"
-                       id="format_poster (movie, informational content)_checkbox"
-                       name="format:::poster (movie, informational content)"
-                       value="poster (movie, informational content)"
-                       label_name="poster (movie, informational content)"
-                       schema="format"
+                       id="format/function_journalistic/documentary_checkbox"
+                       name="format/function:::journalistic/documentary"
+                       value="journalistic/documentary"
+                       label_name="journalistic/documentary"
+                       schema="format/function"
                        onclick="whetherNone(this);registerAnnotation(this)"
                        validation="">
-                <label for="format_poster (movie, informational content)_checkbox"  schema="format" class="shadcn-multiselect-label">
-                    poster (movie, informational content) 
+                <label for="format/function_journalistic/documentary_checkbox"  schema="format/function" class="shadcn-multiselect-label">
+                    journalistic/documentary 
                 </label>
             </div>
         
             <div class="shadcn-multiselect-item">
-                <input class="format shadcn-multiselect-checkbox annotation-input"
+                <input class="format/function shadcn-multiselect-checkbox annotation-input"
                        type="checkbox"
-                       id="format_screenshot (from video games, social media, etc.)_checkbox"
-                       name="format:::screenshot (from video games, social media, etc.)"
-                       value="screenshot (from video games, social media, etc.)"
-                       label_name="screenshot (from video games, social media, etc.)"
-                       schema="format"
+                       id="format/function_promotional/commercial_checkbox"
+                       name="format/function:::promotional/commercial"
+                       value="promotional/commercial"
+                       label_name="promotional/commercial"
+                       schema="format/function"
                        onclick="whetherNone(this);registerAnnotation(this)"
                        validation="">
-                <label for="format_screenshot (from video games, social media, etc.)_checkbox"  schema="format" class="shadcn-multiselect-label">
-                    screenshot (from video games, social media, etc.) 
+                <label for="format/function_promotional/commercial_checkbox"  schema="format/function" class="shadcn-multiselect-label">
+                    promotional/commercial 
                 </label>
             </div>
         
             <div class="shadcn-multiselect-item">
-                <input class="format shadcn-multiselect-checkbox annotation-input"
+                <input class="format/function shadcn-multiselect-checkbox annotation-input"
                        type="checkbox"
-                       id="format_art_checkbox"
-                       name="format:::art"
-                       value="art"
-                       label_name="art"
-                       schema="format"
+                       id="format/function_meme/reaction_checkbox"
+                       name="format/function:::meme/reaction"
+                       value="meme/reaction"
+                       label_name="meme/reaction"
+                       schema="format/function"
                        onclick="whetherNone(this);registerAnnotation(this)"
                        validation="">
-                <label for="format_art_checkbox"  schema="format" class="shadcn-multiselect-label">
-                    art 
+                <label for="format/function_meme/reaction_checkbox"  schema="format/function" class="shadcn-multiselect-label">
+                    meme/reaction 
                 </label>
             </div>
         
             <div class="shadcn-multiselect-item">
-                <input class="format shadcn-multiselect-checkbox annotation-input"
+                <input class="format/function shadcn-multiselect-checkbox annotation-input"
                        type="checkbox"
-                       id="format_product photographs / promotional material_checkbox"
-                       name="format:::product photographs / promotional material"
-                       value="product photographs / promotional material"
-                       label_name="product photographs / promotional material"
-                       schema="format"
+                       id="format/function_artwork/creative_checkbox"
+                       name="format/function:::artwork/creative"
+                       value="artwork/creative"
+                       label_name="artwork/creative"
+                       schema="format/function"
                        onclick="whetherNone(this);registerAnnotation(this)"
                        validation="">
-                <label for="format_product photographs / promotional material_checkbox"  schema="format" class="shadcn-multiselect-label">
-                    product photographs / promotional material 
+                <label for="format/function_artwork/creative_checkbox"  schema="format/function" class="shadcn-multiselect-label">
+                    artwork/creative 
+                </label>
+            </div>
+        
+            <div class="shadcn-multiselect-item">
+                <input class="format/function shadcn-multiselect-checkbox annotation-input"
+                       type="checkbox"
+                       id="format/function_informational graphic_checkbox"
+                       name="format/function:::informational graphic"
+                       value="informational graphic"
+                       label_name="informational graphic"
+                       schema="format/function"
+                       onclick="whetherNone(this);registerAnnotation(this)"
+                       validation="">
+                <label for="format/function_informational graphic_checkbox"  schema="format/function" class="shadcn-multiselect-label">
+                    informational graphic 
+                </label>
+            </div>
+        
+            <div class="shadcn-multiselect-item">
+                <input class="format/function shadcn-multiselect-checkbox annotation-input"
+                       type="checkbox"
+                       id="format/function_other_checkbox"
+                       name="format/function:::other"
+                       value="other"
+                       label_name="other"
+                       schema="format/function"
+                       onclick="whetherNone(this);registerAnnotation(this)"
+                       validation="">
+                <label for="format/function_other_checkbox"  schema="format/function" class="shadcn-multiselect-label">
+                    other 
                 </label>
             </div>
         </div></fieldset></form>
 
-    <form id="content" class="annotation-form multiselect shadcn-multiselect-container" action="/action_page.php" data-annotation-id="4" data-annotation-type="multiselect" data-schema-name="content" data-grid-columns="1">
+    <form id="content" class="annotation-form multiselect shadcn-multiselect-container" action="/action_page.php" data-annotation-id="3" data-annotation-type="multiselect" data-schema-name="content" data-grid-columns="1">
         
         <fieldset schema="content">
-            <legend class="shadcn-multiselect-title">Content / topic of the image?</legend>
+            <legend class="shadcn-multiselect-title">What topic is depicted?</legend>
     <div class="shadcn-multiselect-grid" style="grid-template-columns: repeat(1, 1fr);">
             <div class="shadcn-multiselect-item">
                 <input class="content shadcn-multiselect-checkbox annotation-input"
                        type="checkbox"
-                       id="content_NSFW_checkbox"
-                       name="content:::NSFW"
-                       value="NSFW"
-                       label_name="NSFW"
+                       id="content_politics/current events_checkbox"
+                       name="content:::politics/current events"
+                       value="politics/current events"
+                       label_name="politics/current events"
                        schema="content"
                        onclick="whetherNone(this);registerAnnotation(this)"
                        validation="">
-                <label for="content_NSFW_checkbox"  schema="content" class="shadcn-multiselect-label">
-                    NSFW 
-                </label>
-            </div>
-        
-            <div class="shadcn-multiselect-item">
-                <input class="content shadcn-multiselect-checkbox annotation-input"
-                       type="checkbox"
-                       id="content_politics_checkbox"
-                       name="content:::politics"
-                       value="politics"
-                       label_name="politics"
-                       schema="content"
-                       onclick="whetherNone(this);registerAnnotation(this)"
-                       validation="">
-                <label for="content_politics_checkbox"  schema="content" class="shadcn-multiselect-label">
-                    politics 
+                <label for="content_politics/current events_checkbox"  schema="content" class="shadcn-multiselect-label">
+                    politics/current events 
                 </label>
             </div>
         
@@ -311,30 +274,90 @@
             <div class="shadcn-multiselect-item">
                 <input class="content shadcn-multiselect-checkbox annotation-input"
                        type="checkbox"
-                       id="content_religion_checkbox"
-                       name="content:::religion"
-                       value="religion"
-                       label_name="religion"
+                       id="content_religion/spirituality_checkbox"
+                       name="content:::religion/spirituality"
+                       value="religion/spirituality"
+                       label_name="religion/spirituality"
                        schema="content"
                        onclick="whetherNone(this);registerAnnotation(this)"
                        validation="">
-                <label for="content_religion_checkbox"  schema="content" class="shadcn-multiselect-label">
-                    religion 
+                <label for="content_religion/spirituality_checkbox"  schema="content" class="shadcn-multiselect-label">
+                    religion/spirituality 
                 </label>
             </div>
         
             <div class="shadcn-multiselect-item">
                 <input class="content shadcn-multiselect-checkbox annotation-input"
                        type="checkbox"
-                       id="content_entertainment / tv_checkbox"
-                       name="content:::entertainment / tv"
-                       value="entertainment / tv"
-                       label_name="entertainment / tv"
+                       id="content_entertainment_checkbox"
+                       name="content:::entertainment"
+                       value="entertainment"
+                       label_name="entertainment"
                        schema="content"
                        onclick="whetherNone(this);registerAnnotation(this)"
                        validation="">
-                <label for="content_entertainment / tv_checkbox"  schema="content" class="shadcn-multiselect-label">
-                    entertainment / tv 
+                <label for="content_entertainment_checkbox"  schema="content" class="shadcn-multiselect-label">
+                    entertainment 
+                </label>
+            </div>
+        
+            <div class="shadcn-multiselect-item">
+                <input class="content shadcn-multiselect-checkbox annotation-input"
+                       type="checkbox"
+                       id="content_games/anime_checkbox"
+                       name="content:::games/anime"
+                       value="games/anime"
+                       label_name="games/anime"
+                       schema="content"
+                       onclick="whetherNone(this);registerAnnotation(this)"
+                       validation="">
+                <label for="content_games/anime_checkbox"  schema="content" class="shadcn-multiselect-label">
+                    games/anime 
+                </label>
+            </div>
+        
+            <div class="shadcn-multiselect-item">
+                <input class="content shadcn-multiselect-checkbox annotation-input"
+                       type="checkbox"
+                       id="content_science/technology_checkbox"
+                       name="content:::science/technology"
+                       value="science/technology"
+                       label_name="science/technology"
+                       schema="content"
+                       onclick="whetherNone(this);registerAnnotation(this)"
+                       validation="">
+                <label for="content_science/technology_checkbox"  schema="content" class="shadcn-multiselect-label">
+                    science/technology 
+                </label>
+            </div>
+        
+            <div class="shadcn-multiselect-item">
+                <input class="content shadcn-multiselect-checkbox annotation-input"
+                       type="checkbox"
+                       id="content_social/lifestyle_checkbox"
+                       name="content:::social/lifestyle"
+                       value="social/lifestyle"
+                       label_name="social/lifestyle"
+                       schema="content"
+                       onclick="whetherNone(this);registerAnnotation(this)"
+                       validation="">
+                <label for="content_social/lifestyle_checkbox"  schema="content" class="shadcn-multiselect-label">
+                    social/lifestyle 
+                </label>
+            </div>
+        
+            <div class="shadcn-multiselect-item">
+                <input class="content shadcn-multiselect-checkbox annotation-input"
+                       type="checkbox"
+                       id="content_other/none of the above_checkbox"
+                       name="content:::other/none of the above"
+                       value="other/none of the above"
+                       label_name="other/none of the above"
+                       schema="content"
+                       onclick="whetherNone(this);registerAnnotation(this)"
+                       validation="">
+                <label for="content_other/none of the above_checkbox"  schema="content" class="shadcn-multiselect-label">
+                    other/none of the above 
                 </label>
             </div>
         </div></fieldset></form>

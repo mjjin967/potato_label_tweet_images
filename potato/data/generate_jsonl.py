@@ -9,8 +9,8 @@ import os
 import json
 
 # ── Config ────────────────────────────────────────────────────────────────────
-IMAGE_DIR   = "media_real"
-OUTPUT_FILE = "images.jsonl"
+IMAGE_DIR   = "random_400"
+OUTPUT_FILE = "random_400.jsonl"
 # ──────────────────────────────────────────────────────────────────────────────
 
 def main():

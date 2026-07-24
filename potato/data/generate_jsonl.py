@@ -9,8 +9,8 @@ import os
 import json
 
 # ── Config ────────────────────────────────────────────────────────────────────
-IMAGE_DIR   = "random_400"
-OUTPUT_FILE = "random_400.jsonl"
+IMAGE_DIR   = "gemini_nonai"
+OUTPUT_FILE = f"{IMAGE_DIR}.jsonl"
 # ──────────────────────────────────────────────────────────────────────────────
 
 def main():

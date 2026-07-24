@@ -9,7 +9,7 @@ import os
 import json
 
 # ── Config ────────────────────────────────────────────────────────────────────
-IMAGE_DIR   = "gemini_nonai"
+IMAGE_DIR   = "openai_nonai"
 OUTPUT_FILE = f"{IMAGE_DIR}.jsonl"
 # ──────────────────────────────────────────────────────────────────────────────
 

@@ -1,9 +1,9 @@
 "annotation_task_name": "Image Labeling"
 
 "data_files":
-  - "data/images_martin.jsonl"
+  - "data/gemini_ai.jsonl"
 
-"media_directory": "data/media_martin"
+"media_directory": "data/gemini_ai"
 
 "item_properties":
   "id_key": "id"

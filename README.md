@@ -8,15 +8,12 @@ pip install potato-annotation flask
 ```
 
 ## How to run
-To run the visualizer, run 
+Place your images directory under `data`. Then, run
 ```bash
-python visualizer/server.py --csv your_data.csv --images images_dir
+python generate_jsonl.py
 ```
-
-For example, to see the annotations Jean has done, run
-```bash
-python visualizer/server.py --csv potato/annotations_jean.csv --images potato/data/media_jean
-```
+to generate a jsonl file for potato to reference to.
+Now you're all set to run the labeler!
 
 To run the labeler,
 ```bash
@@ -33,6 +30,16 @@ Refer to section "Directory Structure" below for more.
 
 To visualize your annotations, you must **save your annotations to a csv file**.
 Put in your name in `save_annotations_to_csv.py` and save your annotations into a csv file.
+
+To run the visualizer, run 
+```bash
+python visualizer/server.py --csv your_data.csv --images images_dir
+```
+
+For example, to see the annotations Jean has done, run
+```bash
+python visualizer/server.py --csv potato/annotations_jean.csv --images potato/data/media_jean
+```
 
 ## Directory Structure
 ```bash

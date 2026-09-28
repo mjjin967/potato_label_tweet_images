@@ -20,9 +20,10 @@ python visualizer/server.py --csv potato/annotations_jean.csv --images potato/da
 
 To run the labeler,
 ```bash
+cd potato
 potato start <your_config_file> -p 8000 
 ```
-from the root directory. Navigate to `localhost:8000` in your browser to start labeling.
+Navigate to `localhost:8000` in your browser to start labeling.
 
 Once you register with `<your_user_name>` and start labeling, a log of your labeling activity will be created under `annotation_output/image-labeling/<your_username>/user_state.json`.
 

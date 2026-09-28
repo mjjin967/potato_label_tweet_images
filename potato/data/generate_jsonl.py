@@ -9,7 +9,7 @@ import os
 import json
 
 # ── Config ────────────────────────────────────────────────────────────────────
-IMAGE_DIR   = "openai_nonai"
+IMAGE_DIR   = "./potato/data/xDATAcollector_images"
 OUTPUT_FILE = f"{IMAGE_DIR}.jsonl"
 # ──────────────────────────────────────────────────────────────────────────────
 
